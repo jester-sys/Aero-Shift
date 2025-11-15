@@ -6,10 +6,8 @@ Demo
 
 Add your demo video here.
 You can place the video at: docs/media/demo.mp4
-Then link it like this: [Demo Video](docs/media/demo.mp4)
+Then link it like this: [Demo Video](https://github.com/user-attachments/assets/97bde2d3-e21c-4057-80d8-8b1a693aa176)
 
-You can also add a GIF preview:
-![Demo](docs/media/demo.gif)
 
 Features
 
