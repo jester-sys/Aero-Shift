@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="120dp"
+    android:viewportWidth="360"
+    android:viewportHeight="120">
+
+    <!-- Atmospheric curve with gradient -->
+    <path
+        android:pathData="M0,60 Q90,20 180,40 Q270,60 360,50 L360,120 L0,120 Z">
+        <aapt:attr name="android:fillColor" xmlns:aapt="http://schemas.android.com/aapt">
+            <gradient
+                android:type="linear"
+                android:startX="180"
+                android:startY="0"
+                android:endX="180"
+                android:endY="120"
+                android:startColor="#2a3555"
+                android:centerColor="#4a7c9e"
+                android:endColor="#87ceeb"/>
+        </aapt:attr>
+    </path>
+
+    <!-- Upper glow effect -->
+    <path
+        android:pathData="M0,60 Q90,20 180,40 Q270,60 360,50 L360,55 Q270,65 180,45 Q90,25 0,65 Z"
+        android:fillColor="#6aa3c9"
+        android:fillAlpha="0.3"/>
+</vector>

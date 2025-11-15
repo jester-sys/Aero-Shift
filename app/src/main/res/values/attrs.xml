@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for TrajectoryPathView -->
+    <declare-styleable name="TrajectoryPathView">
+        <!-- Color of the trajectory path -->
+        <attr name="pathColor" format="color" />
+
+        <!-- Stroke width of the trajectory path in dp -->
+        <attr name="pathStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- Optional: Custom attributes for StarsView if needed -->
+    <declare-styleable name="StarsView">
+        <!-- Number of stars to display -->
+        <attr name="starCount" format="integer" />
+
+        <!-- Minimum star size in dp -->
+        <attr name="minStarSize" format="dimension" />
+
+        <!-- Maximum star size in dp -->
+        <attr name="maxStarSize" format="dimension" />
+
+        <!-- Star color -->
+        <attr name="starColor" format="color" />
+
+        <!-- Animation speed multiplier -->
+        <attr name="animationSpeed" format="float" />
+    </declare-styleable>
+</resources>

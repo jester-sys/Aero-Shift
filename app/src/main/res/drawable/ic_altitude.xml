@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Vertical arrow shaft -->
+    <path
+        android:pathData="M12,4 L12,20"
+        android:strokeColor="#22d3ee"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Arrow head (top) -->
+    <path
+        android:pathData="M12,4 L8,8"
+        android:strokeColor="#22d3ee"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <path
+        android:pathData="M12,4 L16,8"
+        android:strokeColor="#22d3ee"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <!-- Horizontal baseline -->
+    <path
+        android:pathData="M6,20 L18,20"
+        android:strokeColor="#22d3ee"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Measurement marks -->
+    <path
+        android:pathData="M8,10 L10,10"
+        android:strokeColor="#22d3ee"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+
+    <path
+        android:pathData="M8,14 L10,14"
+        android:strokeColor="#22d3ee"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+</vector>

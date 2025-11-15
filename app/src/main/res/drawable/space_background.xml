@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Space background with stars pattern -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base space gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#0a0e27"
+                android:centerColor="#1a1f3a"
+                android:endColor="#2a3555" />
+        </shape>
+    </item>
+</layer-list>

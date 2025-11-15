@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="48">
+
+    <!-- Main rocket body -->
+    <path
+        android:pathData="M8,14 L16,14 L16,38 L8,38 Z"
+        android:fillColor="#d1d5db"/>
+
+    <!-- Nose cone (top) -->
+    <path
+        android:pathData="M8,14 L12,6 L16,14 Z"
+        android:fillColor="#e5e7eb"/>
+
+    <!-- Nose cone shading -->
+    <path
+        android:pathData="M8,14 L12,6 L12,14 Z"
+        android:fillColor="#d1d5db"
+        android:fillAlpha="0.5"/>
+
+    <!-- Window (porthole) -->
+    <path
+        android:pathData="M12,11m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0"
+        android:fillColor="#22d3ee"/>
+
+    <!-- Window inner reflection -->
+    <path
+        android:pathData="M12,11m-1.5,0a1.5,1.5 0,1,1 3,0a1.5,1.5 0,1,1 -3,0"
+        android:fillColor="#67e8f9"
+        android:fillAlpha="0.6"/>
+
+    <!-- Red stripe (middle) -->
+    <path
+        android:pathData="M8,22 L16,22 L16,26 L8,26 Z"
+        android:fillColor="#dc2626"/>
+
+    <!-- Body shading (right side) -->
+    <path
+        android:pathData="M14,14 L16,14 L16,38 L14,38 Z"
+        android:fillColor="#9ca3af"
+        android:fillAlpha="0.3"/>
+
+    <!-- Engine base -->
+    <path
+        android:pathData="M8,34 L16,34 L16,38 Q14,39 12,39 Q10,39 8,38 Z"
+        android:fillColor="#dc2626"/>
+
+    <!-- Engine nozzle -->
+    <path
+        android:pathData="M9,38 L11,38 L11,40 Q10,41 9,40 Z"
+        android:fillColor="#991b1b"/>
+
+    <path
+        android:pathData="M13,38 L15,38 L15,40 Q14,41 13,40 Z"
+        android:fillColor="#991b1b"/>
+
+    <!-- Left fin -->
+    <path
+        android:pathData="M8,34 L4,42 L8,38 Z"
+        android:fillColor="#b91c1c"/>
+
+    <!-- Left fin shading -->
+    <path
+        android:pathData="M8,34 L6,38 L8,36 Z"
+        android:fillColor="#7f1d1d"
+        android:fillAlpha="0.5"/>
+
+    <!-- Right fin -->
+    <path
+        android:pathData="M16,34 L20,42 L16,38 Z"
+        android:fillColor="#b91c1c"/>
+
+    <!-- Right fin highlight -->
+    <path
+        android:pathData="M16,34 L18,38 L16,36 Z"
+        android:fillColor="#dc2626"
+        android:fillAlpha="0.4"/>
+
+    <!-- Rivets/details on body -->
+    <path
+        android:pathData="M9,16m-0.5,0a0.5,0.5 0,1,1 1,0a0.5,0.5 0,1,1 -1,0"
+        android:fillColor="#6b7280"/>
+    <path
+        android:pathData="M15,16m-0.5,0a0.5,0.5 0,1,1 1,0a0.5,0.5 0,1,1 -1,0"
+        android:fillColor="#6b7280"/>
+    <path
+        android:pathData="M9,30m-0.5,0a0.5,0.5 0,1,1 1,0a0.5,0.5 0,1,1 -1,0"
+        android:fillColor="#6b7280"/>
+    <path
+        android:pathData="M15,30m-0.5,0a0.5,0.5 0,1,1 1,0a0.5,0.5 0,1,1 -1,0"
+        android:fillColor="#6b7280"/>
+</vector>

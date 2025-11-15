@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="40dp"
+    android:viewportWidth="120"
+    android:viewportHeight="40">
+
+    <!-- Cloud shape made of overlapping circles -->
+    <!-- Left circle -->
+    <path
+        android:pathData="M20,25m-15,0a15,15 0,1,1 30,0a15,15 0,1,1 -30,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"/>
+
+    <!-- Middle-left circle -->
+    <path
+        android:pathData="M40,20m-18,0a18,18 0,1,1 36,0a18,18 0,1,1 -36,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"/>
+
+    <!-- Middle-right circle -->
+    <path
+        android:pathData="M70,22m-16,0a16,16 0,1,1 32,0a16,16 0,1,1 -32,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"/>
+
+    <!-- Right circle -->
+    <path
+        android:pathData="M95,26m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"/>
+
+    <!-- Bottom connector to make it look fluffy -->
+    <path
+        android:pathData="M15,25 L105,25 L105,32 Q100,35 95,35 L25,35 Q20,35 15,32 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"/>
+</vector>

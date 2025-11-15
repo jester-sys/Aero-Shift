@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rocket Simulator</string>
+
+    <!-- UI Labels -->
+    <string name="moon">MOON</string>
+    <string name="launch_pad">LAUNCH PAD</string>
+    <string name="rocket">Rocket</string>
+    <string name="flame">Rocket Flame</string>
+    <string name="cloud">Cloud</string>
+    <string name="atmosphere">Atmospheric Layer</string>
+    <string name="moon_destination">Moon Destination</string>
+
+    <!-- HUD Labels -->
+    <string name="alt">ALT</string>
+    <string name="vel">VEL</string>
+    <string name="grav">GRAV</string>
+    <string name="altitude">Altitude</string>
+    <string name="velocity">Velocity</string>
+    <string name="gravity">Gravity</string>
+
+    <!-- Units -->
+    <string name="km">km</string>
+    <string name="km_per_s">km/s</string>
+    <string name="m_per_s2">m/s²</string>
+
+    <!-- Status Messages -->
+    <string name="ready">READY</string>
+    <string name="launching">LAUNCHING</string>
+    <string name="on_moon">ON MOON</string>
+    <string name="returning">RETURNING</string>
+    <string name="landed">LANDED</string>
+
+    <!-- Button Labels -->
+    <string name="launch">LAUNCH</string>
+    <string name="reset">RESET</string>
+    <string name="auto_land">AUTO-LAND</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="desc_altitude_indicator">Altitude indicator showing current height above Earth</string>
+    <string name="desc_velocity_indicator">Velocity indicator showing current speed</string>
+    <string name="desc_gravity_indicator">Gravity indicator showing current gravitational force</string>
+    <string name="desc_status">Mission status display</string>
+</resources>

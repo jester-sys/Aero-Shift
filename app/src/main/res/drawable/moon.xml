@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Main moon circle with gradient effect -->
+    <path
+        android:pathData="M48,48m-46,0a46,46 0,1,1 92,0a46,46 0,1,1 -92,0"
+        android:fillColor="#e8e8e8"/>
+
+    <!-- Moon shading (darker side) -->
+    <path
+        android:pathData="M48,2 A46,46 0,0,1 94,48 Q90,30 70,15 Q50,5 48,2 Z"
+        android:fillColor="#d8d8d8"
+        android:fillAlpha="0.5"/>
+
+    <!-- Large crater (bottom left) -->
+    <path
+        android:pathData="M32,62m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0"
+        android:fillColor="#a8a8a8"
+        android:fillAlpha="0.4"/>
+
+    <!-- Medium crater (top left) -->
+    <path
+        android:pathData="M28,28m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0"
+        android:fillColor="#9ca3af"
+        android:fillAlpha="0.6"/>
+
+    <!-- Medium crater (top right) -->
+    <path
+        android:pathData="M68,24m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0"
+        android:fillColor="#9ca3af"
+        android:fillAlpha="0.5"/>
+
+    <!-- Small crater (middle right) -->
+    <path
+        android:pathData="M70,48m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0"
+        android:fillColor="#a8a8a8"
+        android:fillAlpha="0.5"/>
+
+    <!-- Small crater (bottom right) -->
+    <path
+        android:pathData="M64,68m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0"
+        android:fillColor="#9ca3af"
+        android:fillAlpha="0.45"/>
+
+    <!-- Tiny crater (top center) -->
+    <path
+        android:pathData="M48,18m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0"
+        android:fillColor="#a8a8a8"
+        android:fillAlpha="0.4"/>
+</vector>
